@@ -7,6 +7,7 @@ h1 {
     font-family: Monoton;
     font-size: 70px;
     margin: 0.2em;
+	text-shadow: 5px 5px 10px gray;
 }
 
 h2 {
@@ -38,4 +39,16 @@ td {
 
 input[type=number] {
     width: 6em;
+}
+
+input[type=submit]{
+	font: italic 105% Arial sans-serif;
+	cursor: pointer;
+	padding: 2px 8px;
+	background-color: gray;
+	width: 7em;
+	border-radius:5px;
+	color: #FFF;
+	border: 1px solid #FFF;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
